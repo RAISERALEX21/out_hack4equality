@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_house"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/icon_like_alt"
+            android:title="Favoritos" />
+        <item
+            android:id="@+id/nav_travel"
+            android:icon="@drawable/icon_briefcase_alt"
+            android:title="Viajar" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_close"
+                android:icon="@drawable/icon_lock"
+                android:title="Cerrar" />
+
+        </menu>
+    </item>
+
+</menu>

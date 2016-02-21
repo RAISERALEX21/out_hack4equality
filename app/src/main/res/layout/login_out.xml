@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="LOGIN OUT"
+            android:textSize="35sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="35dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo:"
+                android:layout_gravity="left"
+                android:textSize="22sp"
+                android:textColor="@android:color/white"
+                />
+
+            <EditText
+                android:id="@+id/edt_login_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e-mail"
+                android:text="user@out.com"
+                android:textColorHint="#DFDFDF"
+                android:backgroundTint="@android:color/white"
+                android:textSize="22dp"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:layout_gravity="left"
+                android:textSize="22sp"
+                android:textColor="@android:color/white"/>
+
+            <EditText
+                android:id="@+id/edt_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="password"
+                android:text="USER123"
+                android:inputType="textPassword"
+                android:textColorHint="#DFDFDF"
+                android:backgroundTint="@android:color/white"
+                android:textSize="22dp"
+                android:textColor="@android:color/white"
+
+                />
+
+            <Button
+                android:id="@+id/but_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:text="COMING OUT"
+                android:layout_marginTop="25dp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            >
+
+            <TextView
+                android:id="@+id/tv_login_register"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:textColor="@android:color/white"
+                android:text="Registrate....."
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

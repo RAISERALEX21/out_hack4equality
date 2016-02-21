@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame_item_container">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_home"
+        card_view:cardElevation="14dp"
+        android:layout_margin="10dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130.4dp"
+                android:orientation="vertical"
+                android:background="@drawable/coyo"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_home_item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mi jeta Rojo "
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:textSize="32sp"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="-1"
+                    android:shadowDy="-1"
+                    android:shadowRadius="1"
+                    />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+
+                <TableRow>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_document"
+                            android:layout_marginRight="15dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_home_item_description"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="WERTYRGFDSRTYHGFDRETYHGFDSERasdfasdfasdfasdfasdfqwefasdWERTYRGFDSRTYHGFDRETYHGFDSERasdfasdfasdfasdfasdfqwefasd"
+                                android:textSize="11.5sp"
+                                />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_currency_alt"
+                            android:layout_marginRight="15dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_home_item_pay"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="980.00 "
+                                android:textSize="30.5sp"
+                                android:gravity="center"
+                                />
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/but_home_rv_favorite"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="ADD FAVORITOS"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginRight="2dp"/>
+
+                <Button
+                    android:id="@+id/but_home_rv_more"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="MAS DATOS.."
+                    android:background="@color/colorPrimary"
+                    android:layout_marginLeft="2dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+</FrameLayout>
